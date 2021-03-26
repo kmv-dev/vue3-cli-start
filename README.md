@@ -1,4 +1,4 @@
-# vue-cli-app
+# vue-cli-app babel,scss(mixin),router,vuex
 
 ## Project setup
 ```
@@ -19,6 +19,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
