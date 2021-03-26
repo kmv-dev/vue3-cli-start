@@ -1,4 +1,4 @@
-# vue-cli-app babel,scss(mixin),router,vuex
+# vue3-cli-app babel,scss(mixin),router,vuex
 
 ## Project setup
 ```
