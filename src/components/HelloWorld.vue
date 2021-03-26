@@ -42,19 +42,36 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
+h1 {
+    width: 400px;
+    margin: 0 auto;
+    animation: change 4.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change {
+    0% { -webkit-transform: translateX(0%); }
+    15% { -webkit-transform: translateX(-15%) rotate(-5deg); }
+    30% { -webkit-transform: translateX(0%) rotate(3deg); }
+    45% { -webkit-transform: translateX(-5%) rotate(-3deg); }
+    60% { -webkit-transform: translateX(5%) rotate(2deg); }
+    75% { -webkit-transform: translateX(-5%) rotate(-1deg); }
+    100% { -webkit-transform: translateX(0%); }
+}
+
 h3 {
-  margin: 40px 0 0;
+    margin: 40px 0 0;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 a {
-  color: #42b983;
+    color: lightskyblue;
 }
 </style>
